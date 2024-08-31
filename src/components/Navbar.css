@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+div .Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    /* background-color: rgb(215, 215, 255); */
+    background-color: black;
+    /* text-align: center; */
+}
+
+div .navTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+div .navTitle span {
+    font-size: 30px;
+    font-family: 'Lucida Sans', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: -1px;
+    margin-bottom: 4px;
+}
+
+.navLinks {
+    margin-right: 80px;
+}
+
+.navLinks li {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navLinks li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navLinks li a:hover:not(#signUp) {
+    color: blue;
+    transition: color 0.3s;
+}
+
+#toggleTheme {
+    display: inline-block;
+    margin: 5px 0 0 15px;
+}
+
+/* .navLinks li a:not(#signUp) {
+    border-bottom: 3px solid blue;
+} */
+
+/* 
+.navLinks li a:hover {
+    transition: font-weight 0.5s;
+} */
+
+.symbol {
+    /* transform: rotate(90deg); */
+    color: blue;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left: 3px;
+    /* width: 5px; */
+}
+
+#signUp {
+    background-color: blue;
+    margin-left: 10px;
+    /* padding: 5px; */
+}
